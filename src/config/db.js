@@ -41,4 +41,4 @@ async function getConnection() {
 //     console.log(result.recordset);
 // })()
 
-module.exports = {sql, getConnection};
+module.exports = { sql, getConnection };
