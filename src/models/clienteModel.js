@@ -2,7 +2,7 @@ const { sql, getConnection } = require("../config/db");
 
 const clienteModel = {
     /**
-     * Busca todos os produtos no banco de dados
+     * Busca todos os clientes no banco de dados
      * 
      * @async
      * @function buscarClientes

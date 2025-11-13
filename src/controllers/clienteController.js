@@ -8,8 +8,8 @@ const clienteController = {
      * @function mostrarClientes
      * @param {object} req - Objeto da requisição (recebido do cliente HTTP) 
      * @param {object} res - Objeto da resposta (enviado ao cliente HTTP)
-     * @returns {Promise<void>} Retorna uma reposta JSON com a lista de produtos.
-     * @throws Mostra no console e retorna erro 500 se ocorrer falha ao buscar os produtos.
+     * @returns {Promise<void>} Retorna uma reposta JSON com a lista de clientes.
+     * @throws Mostra no console e retorna erro 500 se ocorrer falha ao buscar os cliente.
      * 
      */
     mostrarClientes: async (req, res) => {
@@ -26,7 +26,7 @@ const clienteController = {
     },
 
     /**
-   * Controlador que cria um novo produto no banco de dados
+   * Controlador que cria um novo cliente no banco de dados
      * 
      * @async
      * @function cadastrarCliente
